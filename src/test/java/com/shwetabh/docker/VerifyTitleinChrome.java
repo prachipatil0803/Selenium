@@ -31,7 +31,7 @@ public class VerifyTitleinChrome {
 	@Test
 	public void aajtakSearch() throws InterruptedException
 	{	
-		driver.navigate().to("https://www.aajtak.in/");
+		driver.navigate().to("https://www.aaaaajtak.in/");
 		System.out.println("Title of page is "+driver.getTitle());
 		Thread.sleep(2000);
 	}
